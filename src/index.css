@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    /* background: #1e2020ce; */
+    background: #1E1E1E;
+    font-family: "Kaushan Script", cursive;
+}
+
+.centerP {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
